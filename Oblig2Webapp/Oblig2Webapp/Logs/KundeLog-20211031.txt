@@ -1,0 +1,25 @@
+2021-10-31T14:54:00.5256934+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-31T14:54:00.5481568+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-31T14:54:00.5528364+01:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-31T14:54:16.9540053+01:00  [ERR] (node:36068) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (bb3447d9)
+2021-10-31T14:54:16.9578478+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-31T15:05:13.9761787+01:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(50,62): error TS2339: Property 'til' does not exist on type 'Havner'.
+    
+ (8a5f8da2)
+2021-10-31T15:51:22.3521761+01:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(45,29): error TS2304: Cannot find name 'Kunde'.
+    src/app/admin/liste/liste.component.ts(47,32): error TS2339: Property 'skjema' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(48,34): error TS2339: Property 'skjema' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(49,32): error TS2339: Property 'skjema' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(50,31): error TS2339: Property 'skjema' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(51,33): error TS2339: Property 'skjema' does not exist on type 'ListeComponent'.
+    
+ (8d1406fc)
+2021-10-31T19:11:18.4912731+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-31T19:11:18.5173949+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-31T19:11:18.5276699+01:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-31T19:11:34.4076547+01:00  [ERR] (node:19324) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (55aea945)
+2021-10-31T19:11:34.4121050+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)

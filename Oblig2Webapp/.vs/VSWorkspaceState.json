@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Oblig2Webapp",
+    "\\Oblig2Webapp\\ClientApp",
+    "\\Oblig2Webapp\\ClientApp\\src",
+    "\\Oblig2Webapp\\ClientApp\\src\\app",
+    "\\Oblig2Webapp\\ClientApp\\src\\app\\admin",
+    "\\Oblig2Webapp\\ClientApp\\src\\app\\admin\\liste",
+    "\\Oblig2Webapp\\DAL"
+  ],
+  "SelectedNode": "\\Oblig2Webapp\\DAL\\BrukerController.cs",
+  "PreviewInSolutionExplorer": false
+}

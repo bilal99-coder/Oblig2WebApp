@@ -1,0 +1,30 @@
+<app-nav-meny></app-nav-meny>
+<div class="container">
+  <h2>   Kunde: Single Page Application (SPA) </h2>
+  <div>
+    <div class="col-md-12">
+      <div *ngIf="laster">Laster kunder.....</div>
+      <table class="table table-bordered table-condensed">
+        <thead>
+          <tr>
+            <th>Fra</th>
+            <th>Til</th>
+            <th>Pris</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let reise of alleReiser">
+          <tr>
+            <td>{{reise.fra}}</td>
+            <td>{{reise.til}}</td>
+            <td>{{reise.pris}}</td>
+             <td><button class="btn btn-danger" (click)="sletteReise(reise.reiseId)">Slett</button></td>
+            <td><button class="btn btn-success" [routerLink]="['/endre',reise.reiseId]">Endre</button></td> 
+          </tr>
+        </tbody>
+      </table>
+      <button class='btn btn-primary' routerLink="/lagre">Lagre kunde</button>
+    </div>
+  </div>
+</div>

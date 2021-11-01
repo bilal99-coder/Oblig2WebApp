@@ -1,0 +1,63 @@
+2021-11-01T02:09:51.1473527+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-11-01T02:09:51.1698549+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-11-01T02:09:51.1755583+01:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-11-01T02:10:15.6341278+01:00  [ERR] (node:40024) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (71ebccb8)
+2021-11-01T02:10:15.6384280+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-11-01T02:24:48.9587547+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-11-01T02:24:48.9801344+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-11-01T02:24:48.9837879+01:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-11-01T02:25:08.5015771+01:00  [ERR] (node:40868) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (3f20099f)
+2021-11-01T02:25:08.5061419+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-11-01T02:30:22.7919050+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-11-01T02:30:22.8108212+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-11-01T02:30:22.8178750+01:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-11-01T02:30:42.3883194+01:00  [ERR] (node:49132) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (ac248c55)
+2021-11-01T02:30:42.3931340+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-11-01T02:30:45.7339985+01:00  [ERR] ERROR in app/admin/liste/liste.component.ts:63:54 - error TS2339: Property 'id' does not exist on type 'Reise'.
+
+63     console.log("├©nsket slettet " + reiseTilSletting.id + " " + reiseTilSletting.fra + " " + reiseTilSletting.til + " " + reiseTilSletting.pris)
+                                                        ~~
+app/admin/liste/liste.component.ts:107:54 - error TS2339: Property 'id' does not exist on type 'Reise'.
+
+107     console.log("├©nsket slettet " + reiseTilSletting.id+ " " + reiseTilSletting.fra + " " + reiseTilSletting.til + " " + reiseTilSletting.pris)
+                                                         ~~
+app/admin/liste/liste.component.ts:155:17 - error TS2339: Property 'id' does not exist on type 'Reise'.
+
+155         enReise.id = reise_indeks++;
+                    ~~
+
+ (8cd94c49)
+2021-11-01T03:20:18.4108381+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-11-01T03:20:18.4248280+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-11-01T03:20:18.4274736+01:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-11-01T03:20:30.3167531+01:00  [ERR] (node:43052) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (df068514)
+2021-11-01T03:20:30.3209176+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-11-01T03:24:46.1544171+01:00  [ERR] ERROR in app/app.module.ts:33:3 - error TS1146: Declaration expected.
+
+33 })
+     
+app/app.module.ts:34:1 - error TS1128: Declaration or statement expected.
+
+34 })
+   ~
+app/app.module.ts:34:2 - error TS1128: Declaration or statement expected.
+
+34 })
+    ~
+
+ (d3be2056)
+2021-11-01T03:39:57.2972235+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-11-01T03:39:57.3094486+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-11-01T03:39:57.3138421+01:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-11-01T03:40:07.5408500+01:00  [ERR] (node:40088) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (ff9294ff)
+2021-11-01T03:40:07.5457651+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)

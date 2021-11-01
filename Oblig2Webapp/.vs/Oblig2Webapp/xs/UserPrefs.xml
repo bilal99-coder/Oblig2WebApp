@@ -1,0 +1,37 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{11CDB573-8BFA-4E57-8421-CDC06A657DAE}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Oblig2Webapp/ClientApp/src/app/app.module.ts" Line="25" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/app.component.html" Line="5" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/index.html" Line="1" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/app.component.ts" Line="10" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/main.ts" Line="1" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/kontakt.ts" Line="7" Column="2" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/lagre/lagre.component.html" Line="1" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/lagre/lagre.component.ts" Line="9" Column="2" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/liste/liste.component.html" Line="5" Column="5" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/liste/liste.component.ts" Line="9" Column="2" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/nav-meny/nav-meny.component.html" Line="33" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/nav-meny/nav-meny.component.ts" Line="17" Column="2" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/app.server.module.ts" Line="12" Column="1" />
+      <File FileName="Oblig2Webapp/ClientApp/src/app/app-routing.module.ts" Line="21" Column="1" />
+      <File FileName="Oblig2Webapp/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Oblig2Webapp" expanded="True" selected="True">
+            <Node name="Oblig2Webapp" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Oblig2Webapp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

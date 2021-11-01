@@ -1,0 +1,878 @@
+2021-10-30T01:11:26.9527061+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T01:11:26.9684124+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T01:11:26.9720617+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T01:11:45.4185896+02:00  [ERR] (node:43184) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (e0d4b2a4)
+2021-10-30T01:11:45.4234422+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T01:21:36.5036857+02:00  [ERR] ERROR in ./src/app/app-routing.module.ts
+Module not found: Error: Can't resolve './liste/liste.component' in 'C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\src\app'
+ (dff1d876)
+2021-10-30T01:21:37.6871463+02:00  [ERR]     ERROR in src/app/app-routing.module.ts(4,32): error TS2307: Cannot find module './liste/liste.component'.
+    
+ (4bcf4829)
+2021-10-30T01:40:58.2615189+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T01:40:58.2789219+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T01:40:58.2820379+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T01:41:13.0893316+02:00  [ERR] (node:39560) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (001818c9)
+2021-10-30T01:41:13.0938935+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T01:42:28.8122711+02:00 8000005b-0002-fc00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T01:42:48.6200066+02:00 80000089-0001-fb00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T01:42:54.3298417+02:00 80000012-0004-fc00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T01:43:38.2489593+02:00 8000008d-0001-fb00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T01:44:16.9255066+02:00 80000061-0002-fc00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T01:44:34.3981242+02:00 8000002e-0000-f900-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T02:03:08.6538336+02:00  [ERR]     ERROR in src/app/app-routing.module.ts(9,33): error TS2304: Cannot find name 'NavMenyComponent'.
+    
+ (43aef124)
+2021-10-30T02:03:46.5900072+02:00  [ERR] ERROR in ./src/app/app-routing.module.ts
+Module not found: Error: Can't resolve './admin/nav-meny/nav-meny.component' in 'C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\src\app'
+ (2c183951)
+2021-10-30T02:03:47.3617870+02:00  [ERR]     ERROR in src/app/app-routing.module.ts(5,34): error TS2307: Cannot find module './admin/nav-meny/nav-meny.component'.
+    
+ (5a14ebad)
+2021-10-30T02:04:22.9340276+02:00 800000c3-0000-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T02:04:22.9373556+02:00 800000c3-0000-ff00-b63f-84710c7967bb [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2021-10-30T02:04:22.9535066+02:00 800000c3-0000-ff00-b63f-84710c7967bb [ERR] Connection ID ""18374686481282236610"", Request ID ""800000c3-0000-ff00-b63f-84710c7967bb"": An unhandled exception was thrown by the application. (bf316047)
+System.Net.WebSockets.WebSocketException (0x80004005): The WebSocket is in an invalid state ('Aborted') for this operation. Valid states are: 'Open, CloseReceived'
+   at System.Net.WebSockets.WebSocketValidate.ThrowIfInvalidState(WebSocketState currentState, Boolean isDisposed, WebSocketState[] validStates)
+   at System.Net.WebSockets.ManagedWebSocket.CloseOutputAsyncCore(WebSocketCloseStatus closeStatus, String statusDescription, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PumpWebSocket(WebSocket source, WebSocket destination, Int32 bufferSize, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.AcceptProxyWebSocketRequest(HttpContext context, Uri destinationUri, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2021-10-30T02:22:57.3687225+02:00 800000a2-0000-fd00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T02:23:13.1439185+02:00 800000d7-0001-fa00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T02:31:24.0091336+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T02:31:24.0303498+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T02:31:24.0334140+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T02:31:38.1832644+02:00  [ERR] (node:36816) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (a390104a)
+2021-10-30T02:31:38.1864558+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T02:36:44.9263777+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T02:36:44.9443131+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T02:36:44.9461620+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T02:36:57.5666044+02:00  [ERR] (node:26016) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (9edc44fc)
+2021-10-30T02:36:57.5702272+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T02:38:08.1911028+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T02:38:08.2214715+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T02:38:08.2256909+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T02:38:21.9906469+02:00  [ERR] (node:31280) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (ac1c74e9)
+2021-10-30T02:38:21.9939909+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T02:54:35.0388423+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T02:54:35.0693291+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T02:54:35.0737868+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T02:54:50.3888884+02:00  [ERR] (node:30588) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (964a645c)
+2021-10-30T02:54:50.3924868+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T02:56:24.4593674+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T02:56:24.4782728+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T02:56:24.4813816+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T02:56:35.6236535+02:00  [ERR] (node:9572) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (dba4c141)
+2021-10-30T02:56:35.6268596+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T14:11:11.9425960+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T14:11:11.9563041+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T14:11:11.9590077+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T14:11:25.1523124+02:00  [ERR] (node:23328) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (ea8f05dc)
+2021-10-30T14:11:25.1555985+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T14:13:43.7277801+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T14:13:43.7474121+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T14:13:43.7477761+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T14:49:43.6605483+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T14:49:43.6722322+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T14:49:43.6749680+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T14:49:52.4440966+02:00  [ERR] (node:28132) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (84dc67f0)
+2021-10-30T14:49:52.4477651+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T15:13:14.5613849+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T15:13:14.5820904+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T15:13:14.5844486+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T15:13:34.3899453+02:00  [ERR] (node:15272) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (6beec525)
+2021-10-30T15:13:34.3938825+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T15:24:29.1708791+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T15:24:29.1815803+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T15:24:29.1840982+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T15:24:38.3419983+02:00  [ERR] (node:28952) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (4947f111)
+2021-10-30T15:24:38.3454667+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T15:52:29.1658430+02:00 80000068-0004-fb00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:52:34.0083790+02:00 800000c6-0000-fc00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:52:57.5989858+02:00 800000dc-0001-f800-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:53:01.0314483+02:00 80000099-0003-f700-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:53:46.0327919+02:00 800000ae-0001-f900-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:54:24.9921954+02:00 80000159-0007-ff00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:54:28.1496394+02:00 80000126-0001-fb00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:58:51.7560978+02:00 80000182-0004-fd00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T15:59:00.6469079+02:00 800000c7-0002-f900-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T17:59:02.2015833+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T17:59:02.2152749+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T17:59:02.2174092+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T17:59:04.5237237+02:00  [ERR] An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+ (af9c82d4)
+2021-10-30T17:59:04.5325996+02:00  [ERR] Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ygeX4B\angular-errors.log" for further details.
+ (5a07439b)
+2021-10-30T17:59:04.6212504+02:00 80000163-0005-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ygeX4B\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ygeX4B\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ygeX4B\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:05:57.1893855+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T18:05:57.2075664+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T18:05:57.2101593+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T18:06:00.0904209+02:00  [ERR] An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+ (af9c82d4)
+2021-10-30T18:06:00.0940482+02:00  [ERR] Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-UylhIm\angular-errors.log" for further details.
+ (b79fe68e)
+2021-10-30T18:06:00.1625545+02:00 80000040-0007-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-UylhIm\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-UylhIm\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-UylhIm\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:10:53.0282736+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T18:10:53.0437433+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T18:10:53.0461995+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T18:11:04.5534370+02:00  [ERR] (node:14772) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (bb7d32cb)
+2021-10-30T18:11:04.5569693+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T18:13:08.7219012+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T18:13:08.7397572+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T18:13:08.7439330+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T18:13:11.1604159+02:00  [ERR] An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+ (af9c82d4)
+2021-10-30T18:13:11.1647391+02:00  [ERR] Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+ (225508a0)
+2021-10-30T18:13:11.2494869+02:00 80000092-0005-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:16:44.9011089+02:00 80000044-0007-fc00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:16:47.9855094+02:00 800000e7-0000-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:16:48.6810703+02:00 80000177-0002-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:20:05.4517231+02:00 800000e0-0005-fe00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:20:06.3110355+02:00 80000039-0006-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:20:06.4569414+02:00 800000e9-0000-fb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:20:06.6187583+02:00 80000179-0002-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:20:06.7884296+02:00 8000017d-0002-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:20:06.9310678+02:00 80000181-0002-fa00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+)
+ ---> System.InvalidOperationException: The NPM script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Workspace config file cannot be loaded: C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp\ClientApp\angular.json
+
+Schema validation failed with the following errors:
+  Data path ".projects['styles']" should be object.
+See "C:\Users\bilal\AppData\Local\Temp\ng-ZhwI70\angular-errors.log" for further details.
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String npmScriptName, ILogger logger)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30T18:27:02.8731923+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T18:27:02.8949401+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T18:27:02.8999455+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T18:27:17.4840079+02:00  [ERR] (node:16848) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (d2ebc34c)
+2021-10-30T18:27:17.4871373+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T18:27:43.7658179+02:00 8000014b-0000-fd00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T18:30:31.1085740+02:00 80000175-0007-ff00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T18:30:40.8000207+02:00 800000e6-0005-fe00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T18:30:45.7046293+02:00 8000014d-0000-fd00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T19:27:58.1330319+02:00 8000018b-0002-fa00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T19:29:46.8422594+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(11,21): error TS2304: Cannot find name 'Kunde'.
+    
+ (b63e8c38)
+2021-10-30T19:30:37.7239423+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(25,27): error TS2339: Property 'modalService' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(34,14): error TS2339: Property 'http' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(36,18): error TS2339: Property 'hentAlleKunder' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(41,12): error TS2339: Property 'router' does not exist on type 'ListeComponent'.
+    
+ (26ec4399)
+2021-10-30T19:32:52.0778649+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(23,10): error TS2339: Property 'hentAlleReiser' does not exist on type 'ListeComponent'.
+    src/app/admin/liste/liste.component.ts(40,18): error TS2339: Property 'hentAlleKunder' does not exist on type 'ListeComponent'.
+    
+ (e1cd0a30)
+2021-10-30T21:36:37.4226686+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T21:36:37.4361922+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T21:36:37.4393176+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T21:36:51.9907797+02:00  [ERR] (node:38496) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (1c7a35b4)
+2021-10-30T21:36:51.9938850+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T21:37:53.9138265+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T21:37:53.9324024+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T21:37:53.9357292+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T21:38:05.1160876+02:00  [ERR] (node:20592) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (91855eed)
+2021-10-30T21:38:05.1189594+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T21:38:24.1301159+02:00 800001a4-0004-fe00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T21:45:39.6956790+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T21:45:39.7108890+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T21:45:39.7153750+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T21:45:50.3426008+02:00  [ERR] (node:43080) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (397a37e8)
+2021-10-30T21:45:50.3464728+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T21:46:09.2121058+02:00 80000055-0006-fa00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T21:57:10.1975787+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T21:57:10.2148722+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T21:57:10.2181943+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T21:57:22.9777659+02:00  [ERR] (node:17452) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (09043089)
+2021-10-30T21:57:22.9815249+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T21:57:43.6536727+02:00 80000050-0007-fc00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:04:41.5681834+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:04:41.5805944+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:04:41.5827617+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T22:04:52.2723123+02:00  [ERR] (node:42412) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (bfdef5e5)
+2021-10-30T22:04:52.2763872+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T22:05:23.5077314+02:00 80000036-0001-f500-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:08:25.2203313+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:08:25.2315531+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:08:25.2336810+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T22:08:37.4466189+02:00  [ERR] (node:15804) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (c7f00d79)
+2021-10-30T22:08:37.4499734+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T22:08:58.7915174+02:00 80000063-0006-fa00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:22:24.7780203+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:22:24.7901834+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:22:24.7949177+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T22:22:36.1240336+02:00  [ERR] (node:21784) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (c88372e3)
+2021-10-30T22:22:36.1279651+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T22:22:53.5114855+02:00 800000d5-0001-f900-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:24:48.9344663+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:24:48.9512074+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:24:48.9550572+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T22:25:00.3902014+02:00  [ERR] (node:27764) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (c71534d1)
+2021-10-30T22:25:00.3945191+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T22:25:24.8516748+02:00 8000005c-0007-fb00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:30:19.6595281+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:30:19.6794852+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:30:19.6834044+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T22:30:30.8224627+02:00  [ERR] (node:25068) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (4bc59c13)
+2021-10-30T22:30:30.8271827+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T22:30:50.8254614+02:00 800000ff-0000-fc00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:31:30.9610773+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:31:30.9760332+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:31:30.9790880+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T22:31:41.7130055+02:00  [ERR] (node:37584) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (4e1cf321)
+2021-10-30T22:31:41.7185666+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T22:32:15.3277466+02:00 800001c1-0004-fe00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:35:52.8654546+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(50,35): error TS2339: Property 'HavnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (66be871a)
+2021-10-30T22:36:50.3722308+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(50,35): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (6da8e017)
+2021-10-30T22:41:17.2462500+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(50,49): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (ab57d8ee)
+2021-10-30T22:41:22.1529348+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(50,49): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (ab57d8ee)
+2021-10-30T22:42:31.3981813+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(51,49): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (5d53ed68)
+2021-10-30T22:48:26.2680507+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(51,49): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (5d53ed68)
+2021-10-30T22:48:52.9573180+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(51,49): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (5d53ed68)
+2021-10-30T22:49:09.2873578+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(51,49): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (5d53ed68)
+2021-10-30T22:49:14.3921845+02:00  [ERR]     ERROR in src/app/admin/liste/liste.component.ts(51,49): error TS2339: Property 'havnNavn' does not exist on type 'AnkomstHavner'.
+    
+ (5d53ed68)
+2021-10-30T22:50:07.5560655+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:50:07.5816393+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:50:07.5935991+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T22:50:20.4464512+02:00  [ERR] (node:46984) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (3c5d9724)
+2021-10-30T22:50:20.4498843+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T22:51:11.7674479+02:00 800000b1-0003-f900-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T22:53:30.3226759+02:00  [ERR]     ERROR in src/app/app-routing.module.ts(13,35): error TS2304: Cannot find name 'Endre'.
+    
+ (165b6c2e)
+2021-10-30T22:54:27.6460770+02:00  [ERR]     ERROR in src/app/app-routing.module.ts(14,35): error TS2304: Cannot find name 'Endre'.
+    
+ (788afc9b)
+2021-10-30T22:54:34.2348815+02:00  [ERR]     ERROR in src/app/app-routing.module.ts(14,35): error TS2304: Cannot find name 'Endre'.
+    
+ (788afc9b)
+2021-10-30T22:59:54.2923810+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-30T22:59:54.3052978+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-30T22:59:54.3075767+02:00  [INF] Content root path: "C:\Users\bilal\Source\Repos\Oblig2Webapp\Oblig2Webapp\Oblig2Webapp" (b5d60022)
+2021-10-30T23:00:05.6603815+02:00  [ERR] (node:16592) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (c6664807)
+2021-10-30T23:00:05.6648330+02:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2021-10-30T23:00:25.6439568+02:00 80000060-0007-fd00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
+2021-10-30T23:01:00.6361893+02:00 80000132-0002-fc00-b63f-84710c7967bb [INF] Feil i inputvalidering (06f553d7)
